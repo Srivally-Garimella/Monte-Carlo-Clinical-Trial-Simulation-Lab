@@ -1,0 +1,6 @@
+{
+  "name": "Two-Proportion Monte Carlo Lab",
+  "description": "Deterministic biostatistical simulation laboratory for two-proportion Z-tests, Newcombe-Wilson confidence intervals, Monte Carlo power convergence, and post-calculation interpretation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

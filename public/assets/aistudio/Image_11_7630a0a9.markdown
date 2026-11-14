@@ -1,0 +1,197 @@
+---
+name: Computational Laboratory HUD
+colors:
+  surface: '#0e131e'
+  surface-dim: '#0e131e'
+  surface-bright: '#343946'
+  surface-container-lowest: '#090e19'
+  surface-container-low: '#171b27'
+  surface-container: '#1b1f2b'
+  surface-container-high: '#252a36'
+  surface-container-highest: '#303541'
+  on-surface: '#dee2f2'
+  on-surface-variant: '#cfc2d6'
+  inverse-surface: '#dee2f2'
+  inverse-on-surface: '#2b303c'
+  outline: '#988d9f'
+  outline-variant: '#4d4354'
+  surface-tint: '#ddb7ff'
+  primary: '#ddb7ff'
+  on-primary: '#490080'
+  primary-container: '#b76dff'
+  on-primary-container: '#400071'
+  inverse-primary: '#842bd2'
+  secondary: '#4cd7f6'
+  on-secondary: '#003640'
+  secondary-container: '#03b5d3'
+  on-secondary-container: '#00424e'
+  tertiary: '#bdc2ff'
+  on-tertiary: '#131e8c'
+  tertiary-container: '#7c87f3'
+  on-tertiary-container: '#081486'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#f0dbff'
+  primary-fixed-dim: '#ddb7ff'
+  on-primary-fixed: '#2c0051'
+  on-primary-fixed-variant: '#6900b3'
+  secondary-fixed: '#acedff'
+  secondary-fixed-dim: '#4cd7f6'
+  on-secondary-fixed: '#001f26'
+  on-secondary-fixed-variant: '#004e5c'
+  tertiary-fixed: '#e0e0ff'
+  tertiary-fixed-dim: '#bdc2ff'
+  on-tertiary-fixed: '#000767'
+  on-tertiary-fixed-variant: '#2f3aa3'
+  background: '#0e131e'
+  on-background: '#dee2f2'
+  surface-variant: '#303541'
+typography:
+  display-lg:
+    fontFamily: Space Grotesk
+    fontSize: 48px
+    fontWeight: '700'
+    lineHeight: 52px
+    letterSpacing: -0.03em
+  headline-lg:
+    fontFamily: Space Grotesk
+    fontSize: 32px
+    fontWeight: '600'
+    lineHeight: 38px
+    letterSpacing: -0.02em
+  headline-lg-mobile:
+    fontFamily: Space Grotesk
+    fontSize: 24px
+    fontWeight: '600'
+    lineHeight: 30px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Space Grotesk
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: 28px
+    letterSpacing: -0.01em
+  title-sm:
+    fontFamily: Space Grotesk
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 22px
+    letterSpacing: 0.02em
+  body-lg:
+    fontFamily: Geist
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Geist
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Geist
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 16px
+  label-md:
+    fontFamily: Space Grotesk
+    fontSize: 11px
+    fontWeight: '700'
+    lineHeight: 14px
+    letterSpacing: 0.08em
+  code-sm:
+    fontFamily: Geist
+    fontSize: 12px
+    fontWeight: '500'
+    lineHeight: 16px
+    letterSpacing: 0.04em
+spacing:
+  gutter: 1rem
+  gutter-lg: 1.5rem
+  margin: 1rem
+  margin-lg: 2rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+The design system establishes an avant-garde technical simulation HUD engineered for biostatisticians, data scientists, and clinical researchers executing high-dimensional trial simulations. The visual identity merges brutalist modular containment with computational optics, treating every interface view as a mission-critical instrumentation dashboard.
+
+### Core Tenets
+- **Rigid Precision:** Eliminating decorative ambiguity. Structural components utilize sharp, rectilinear viewports that mirror physical diagnostic control decks and terminal matrix arrays.
+- **Speculative Luminescence:** High-contrast spectral accents cut through deep obsidian depths to indicate state transitions, probabilistic distributions, and real-time computation cycles.
+- **Data Density & Orthogonal Order:** Information architecture favors structured telemetry grids, monoline borders, and clear hierarchical scan paths over ambient whitespace.
+
+## Colors
+
+The palette operates within a deep terminal spectrum, using speculative ultraviolet as the primary command color alongside electric cyan telemetry guides.
+
+### Palette Architecture
+- **Primary (`#A855F7`):** Active simulation hooks, selected parameter bounds, execution vectors, and primary action triggers.
+- **Secondary (`#06B6D4`):** Live telemetry pipelines, confidence intervals, convergent endpoints, and signal monitors.
+- **Tertiary (`#818CF8`):** Stochastic markers, probabilistic distribution fields, and baseline comparators.
+- **Neutral Canvas (`#0B101B` / `#0F172A`):** Low-reflectance obsidian backgrounds providing absolute contrast ratios for computational luminescence.
+- **Structural Outlines (`#1E293B` / `#334155`):** Monolithic structural dividing grids with low-opacity spectral edge illumination.
+
+## Typography
+
+Typography balances scientific display geometries with dense tabular data legibility.
+
+- **Headlines & Structural Labels (`Space Grotesk`):** Renders module coordinates, panel titles, scientific parameters, and KPI telemetry. All small labels (`label-md`) strictly employ uppercase tracking to reinforce the technical HUD instrument aesthetic.
+- **Body & Data Feed (`Geist`):** Delivers clean readability across dense computational outputs, statistical documentation, and analytical logs with tabular figure alignment.
+
+## Layout & Spacing
+
+The platform operates on a strict modular grid system structured around persistent multi-pane simulation consoles.
+
+### Grid & Responsiveness
+- **Desktop (1440px+):** 12-column rigid matrix with `1.5rem` gutters and fixed tool ribbons. Content pane subdivides into modular docked tiles (Cohort Explorer, Variable Synthesizer, Probability Canvas).
+- **Tablet (768px - 1439px):** 8-column layout. Analytical tiles collapse into tabbed HUD panels while retaining horizontal telemetry headers.
+- **Mobile (<768px):** Single-column stacked stream. Critical simulation controls dock to sticky top/bottom utility collars with collapsed telemetry drawers.
+
+## Elevation & Depth
+
+Depth is defined by luminous structural borders and layered darkness rather than diffusive drop shadows.
+
+### Elevation Hierarchy
+- **Ground Floor (L0 - Background):** `#0B101B` matte base absorbing all light.
+- **Panel Surface (L1 - Sub-layer):** `#0F172A` with a 1px solid border (`#1E293B`) creating modular partitions.
+- **Interactive Container (L2 - Elevate):** `#131D31` enclosed in `#334155`. Interactive focus triggers a 1px sharp perimeter glow of `#A855F7` (`box-shadow: 0 0 12px rgba(168, 85, 247, 0.25)`).
+- **Floating Overlays (L3 - Modals/Flyouts):** Translucent `#0B101BE6` with backdrop blur (12px), framed by an inner boundary stroke of `#38BDF840` and an outer boundary stroke of `#000000`.
+
+## Shapes
+
+The design system enforces zero corner radiusing across every surface. All containers, inputs, buttons, badges, and modals have strictly sharp 90-degree corners (`roundedness: 0`). This brutalist geometry reinforces an uncompromising computational aesthetic reminiscent of hardware bio-processors, rack-mounted instrumentation, and raw code terminals.
+
+## Components
+
+### Buttons & Interactive Triggers
+- **Primary Run Action:** Solid `#A855F7` fill, high-contrast dark text (`#0B101B`), sharp corners, uppercase `Space Grotesk` text. Hover induces an intense ultraviolet perimeter aura.
+- **Secondary HUD Action:** Transparent fill, 1px `#334155` border, text `#E2E8F0`. Hover swaps border to `#06B6D4` with text illumination.
+- **Destructive/Halt Action:** Transparent fill, 1px `#EF4444` border with flashing terminal state indicator.
+
+### Input Fields & Parameter Steppers
+- Rectangular blocks with `#0F172A` backgrounds and `#1E293B` boundaries.
+- Focused state applies an immediate 1px border of `#A855F7` with monospace numeric typing and an active cursor tick.
+- Dynamic error validation renders a high-visibility diagonal hazard line or solid amber/red tag.
+
+### Telemetry Cards & Lab Panels
+- Multi-compartment data tiles bounded by razor-thin borders.
+- Top header includes an alphanumeric panel identifier (e.g., `[SYS_VEC.01]`) in tracking-heavy `Space Grotesk` with inline status diodes (green/cyan/violet).
+
+### Chips & Cohort Tags
+- Flat zero-radius badges.
+- State-coded background tints (`rgba(6, 182, 212, 0.1)`) with crisp `1px` borders matching the accent color.
+
+### Checkboxes & Segmented Selectors
+- Checkboxes: Exact squares with an empty center; checked state renders a solid inner `#A855F7` square block.
+- Segmented Controls: Sharp tab bars where active segments lock in place with full high-contrast background fills.
+
+### Specialized Scientific Visualizations
+- **Probability Distributions:** Vector stroke areas in `#A855F7` with gradient drop fills terminating into `#0B101B`.
+- **Confidence Intervals:** Dual bracket-ended monoline calipers rendered in `#06B6D4`.
