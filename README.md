@@ -1,4 +1,5 @@
-# Clinical Trial Simulation
+# Monte Carlo Trial Simulation Lab
+
 
 A deterministic biostatistical simulation workspace for two-proportion Z-tests, Newcombe–Wilson & Wald confidence intervals, Monte Carlo power convergence, and post-calculation statistical interpretation via Gemini.
 
